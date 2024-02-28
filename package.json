@@ -1,7 +1,6 @@
 {
   "name": "tooling-section-exercise",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
@@ -11,10 +10,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^15.2.3"
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-url": "^8.0.2"
   },
   "dependencies": {
     "three": "^0.161.0",
     "web-ifc-viewer": "^1.0.218"
-  }
+  },
+  "description": ""
 }
