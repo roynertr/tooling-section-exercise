@@ -1,5 +1,7 @@
 import { Color } from 'three';
 import { IfcViewerAPI } from 'web-ifc-viewer';
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 
 const container = document.getElementById('viewer-container');
 const viewer = new IfcViewerAPI({ container, backgroundColor: new Color(0xffffff) });
